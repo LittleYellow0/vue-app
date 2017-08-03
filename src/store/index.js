@@ -8,6 +8,7 @@ import ajax from '../config/ajax'
 Vue.use(Vuex)
 
 const state = {
+	direction: 'forward', // 路由方向
 	level: '第一周', //活动周数
 	itemNum: 1, // 第几题
 	allTime: 0,  //总共用时
