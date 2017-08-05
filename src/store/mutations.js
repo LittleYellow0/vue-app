@@ -28,7 +28,10 @@ export default {
 		state.allTime = 0;
 		state.answerid = [];
 	},
-	[UPDATE_DIRECTION] (state, payload) {
-      state.direction = payload.direction
-    }
+	/*
+	路由方向
+	 */
+	[UPDATE_DIRECTION](state, payload) {
+		state.direction = payload.direction
+	}
 }
